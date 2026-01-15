@@ -14,7 +14,7 @@ st.markdown("该工具自动抓取人民网最新动态，并调用 AI 提取考
 
 # --- 侧边栏：配置 ---
 st.sidebar.header("⚙️ 配置中心")
-api_key = st.sidebar.text_input("输入 DeepSeek API Key", type="password")
+api_key = 'sk-4c969651e5bf4a6491b9218b748f8647'
 selected_channels = st.sidebar.multiselect(
     "选择采集板块",
     ["经济科技", "社会法治", "文旅体育", "国际新闻",'党政新闻','党政新闻','军事新闻','大湾区新闻','台湾新闻','教育新闻'],
